@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-    <BrowserRouter basename={"/"}>
+    <BrowserRouter basename={"/Pokemon"}>
     <Routes>
       <Route path="/" element={<MainPage data={data} setLimit={setLimit}/>}/>
     </Routes>
