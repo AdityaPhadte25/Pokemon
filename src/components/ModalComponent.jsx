@@ -9,6 +9,9 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: 500,
   height: 550,
+  '@media (max-width: 600px)': {
+    width: 300,
+  },
   bgcolor: "rgba(247, 242, 242, 0.961)",
   border: '2px solid #000',
   boxShadow: 24,
