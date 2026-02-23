@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from '../logo/pokemon-logo-png-1421.png'
 
 export default function Header() {
   return (
     <div>
         <header className='header'>
-            <img src="https://www.freepnglogos.com/uploads/pokemon-logo-png-0.png" className="bgImage" />
+            <img src={logo} alt="Pokemon Logo" className="bgImage" />
         </header>
     </div>
   )
